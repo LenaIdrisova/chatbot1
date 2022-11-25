@@ -3,7 +3,7 @@ require: slotfilling/slotFilling.sc
 theme: /
 
     state: Start
-        q!: $reqex</start>
+        q!: $regex</start>
         a: Начнём.
     
     state: Hello
@@ -12,11 +12,11 @@ theme: /
         
     state: Bye
         intent!: /пока
-            a: Пока пока
+        a: Пока пока
             
     state: marko
-        intent!: марко
-            go!: /polo
+        q!: марко
+        go!: /polo
             
     state: polo
         a: polo
