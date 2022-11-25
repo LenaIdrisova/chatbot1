@@ -1,7 +1,7 @@
 {
   "project" : {
-    "id" : "zb-jgraph-cailapub",
-    "name" : "zb-jgraph-cailapub",
+    "id" : "test-1000059608-Vjl",
+    "name" : "test-1000059608-Vjl",
     "folder" : "/jaicp"
   },
   "settings" : {
@@ -17,7 +17,6 @@
     "shared" : false
   },
   "intents" : [ {
-    "id" : 11239672,
     "path" : "/Оставить отзыв",
     "enabled" : true,
     "shared" : false,
@@ -34,10 +33,12 @@
     }, {
       "text" : "оставить отзыв"
     } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
     "patterns" : [ ],
     "priority" : 0
   }, {
-    "id" : 11239539,
     "path" : "/Статус заказа",
     "enabled" : true,
     "shared" : false,
@@ -48,19 +49,23 @@
     }, {
       "text" : "когда прибудет курьер?"
     } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
     "patterns" : [ ],
     "priority" : 0
   }, {
-    "id" : 11239969,
     "path" : "/Номер заказа",
     "description" : "В этом интенте мы используем системную сущность «номер» (@duckling.number) вместо примеров фраз. Так интент будет срабатывать при вводе пользователем числа, например «42» или «сорок два».",
     "enabled" : true,
     "shared" : false,
     "phrases" : [ ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
     "patterns" : [ "@duckling.number" ],
     "priority" : 0
   }, {
-    "id" : 11239542,
     "path" : "/Часы работы",
     "enabled" : true,
     "shared" : false,
@@ -77,6 +82,9 @@
     }, {
       "text" : "как вы работаете?"
     } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
     "patterns" : [ ],
     "priority" : 0
   } ],
